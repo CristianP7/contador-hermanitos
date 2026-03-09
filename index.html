@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarabi, Kenobi & Juanin 🐾</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="scene">
+    <div class="overlay"></div>
+    <div class="content">
+      <header class="header">
+        <h1 class="title">Sarabi, Kenobi <span class="amp">&amp;</span> Juanin</h1>
+        <p class="subtitle">Nacieron el 16 de enero de 2026. En este momento tienen:</p>
+      </header>
+
+      <div class="counter-grid" id="counter">
+        <div class="unit" id="unit-years">
+          <div class="digit-wrapper"><span class="digit" id="years">00</span></div>
+          <span class="label">Años</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit" id="unit-months">
+          <div class="digit-wrapper"><span class="digit" id="months">00</span></div>
+          <span class="label">Meses</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit" id="unit-days">
+          <div class="digit-wrapper"><span class="digit" id="days">00</span></div>
+          <span class="label">Días</span>
+        </div>
+        <div class="sep mobile-hide">:</div>
+        <div class="unit mobile-hide" id="unit-hours">
+          <div class="digit-wrapper"><span class="digit" id="hours">00</span></div>
+          <span class="label">Horas</span>
+        </div>
+        <div class="sep mobile-hide">:</div>
+        <div class="unit mobile-hide" id="unit-minutes">
+          <div class="digit-wrapper"><span class="digit" id="minutes">00</span></div>
+          <span class="label">Minutos</span>
+        </div>
+        <div class="sep mobile-hide">:</div>
+        <div class="unit mobile-hide" id="unit-seconds">
+          <div class="digit-wrapper"><span class="digit" id="seconds">00</span></div>
+          <span class="label">Segundos</span>
+        </div>
+      </div>
+
+      <!-- Mobile second row -->
+      <div class="counter-grid mobile-row2" id="counter-mobile">
+        <div class="unit">
+          <div class="digit-wrapper"><span class="digit" id="hours-m">00</span></div>
+          <span class="label">Horas</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit">
+          <div class="digit-wrapper"><span class="digit" id="minutes-m">00</span></div>
+          <span class="label">Minutos</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit">
+          <div class="digit-wrapper"><span class="digit" id="seconds-m">00</span></div>
+          <span class="label">Segundos</span>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Creado para los hermanitos con mucho amor. <span class="heart">♥</span>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
