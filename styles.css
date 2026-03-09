@@ -51,6 +51,7 @@ html, body { height: 100%; width: 100%; overflow: hidden; }
 
 /* ── Content ── */
 .content {
+  margin-top: -10rem; 
   position: relative;
   z-index: 2;
   display: flex;
