@@ -2,6 +2,7 @@
 const BIRTH_DATE = new Date('2026-01-16T00:00:00');
 
 // DOM references
+
 const els = {
   years:     document.getElementById('years'),
   months:    document.getElementById('months'),
